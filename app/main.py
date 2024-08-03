@@ -1,13 +1,13 @@
-# Uncomment this to pass the first stage
 # import socket
 
 
 def main():
     # You can use print statements as follows for debugging, they'll be visible when running tests.
     print("Logs from your program will appear here!")
+    git add .
+    git commit -m "pass 1st stage" # any msg
+    git push origin master
 
-    # Uncomment this to pass the first stage
-    #
     # server_socket = socket.create_server(("localhost", 4221), reuse_port=True)
     # server_socket.accept() # wait for client
 
